@@ -1,0 +1,37 @@
+/************ Custom Font ************/
+@font-face {
+	font-family: Bolds;
+	src: url('./assets/font/DePixelHalbfett.ttf');
+	font-weight: 700;
+}
+@font-face {
+	font-family: Normals;
+	src: url('./assets/font/DePixelBreit.otf');
+	font-weight: 500;
+}
+@font-face {
+	font-family: Fine;
+	src: url('./assets/font/DePixelKlein.ttf');
+	font-weight: 400;
+}
+
+.NewGame-Container {
+    width: 100%;
+    background: rgb(2,0,23);
+    background: linear-gradient(90deg, rgb(38, 18, 255) 0%, rgb(1, 72, 36) 35%, rgb(200, 50, 0) 100%);
+  }
+
+  .slider-card {
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .name{
+    font-family: 'Normals', sans-serif !important;
+    font-size: 1rem !important;
+  }
+
+  .text{
+    font-family: 'Normals', sans-serif !important;
+  }

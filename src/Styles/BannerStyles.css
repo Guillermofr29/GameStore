@@ -1,0 +1,27 @@
+@font-face {
+	font-family: Bolds;
+	src: url('./assets/font/DePixelHalbfett.ttf');
+	font-weight: 700;
+}
+@font-face {
+	font-family: Normals;
+	src: url('./assets/font/DePixelBreit.otf');
+	font-weight: 500;
+}
+@font-face {
+	font-family: Fine;
+	src: url('./assets/font/DePixelKlein.ttf');
+	font-weight: 400;
+}
+
+h1{
+    font-family: 'Bolds', sans-serif !important;
+}
+
+h5{
+    font-family: 'Normals', sans-serif !important;
+}
+
+p{
+    font-family: 'Fine', sans-serif !important;
+}
