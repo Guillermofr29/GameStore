@@ -6,7 +6,7 @@ import { GamesI } from '../interfaces/GamesI';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import '../Styles/PopularGames.css';
-import StarRating from './StartRating';
+import StarRating from './StarRating';
 
 export const PopularGames: React.FC = () => {
   const settings = {

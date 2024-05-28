@@ -2,7 +2,7 @@ import React from 'react';
 import { Button, Card, CardContent, CardMedia, Typography } from '@mui/material';
 import Slider from 'react-slick';
 import { GamesI } from '../interfaces/GamesI';
-import StarRating from './StartRating';
+import StarRating from './StarRating';
 
 
 interface GameCardProps {
