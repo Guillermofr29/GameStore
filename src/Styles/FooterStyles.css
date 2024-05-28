@@ -1,0 +1,60 @@
+.footer {
+    background: linear-gradient(90deg, rgba(2, 0, 23, 1) 0%, rgba(28, 1, 72, 1) 35%, rgba(39, 0, 38, 1) 100%);
+    color: white;
+    text-align: center;
+}
+
+.footer .icon-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5rem;
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 50%;
+    background: none;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+
+.text-center {
+    font-size: 1rem !important;
+}
+
+.footer .icon-btn .MuiSvgIcon-root {
+    font-size: 1.4rem;
+}
+
+.footer .icon-btn:hover {
+    transform: scale(1.1);
+}
+
+.footer .icon-btn:active {
+    transform: scale(1);
+}
+
+.footer .icon-btn.FBIcon:hover {
+    color: #3a6bd4;
+    border-color: #3a6bd4;
+}
+
+.footer .icon-btn.TwTIcon:hover {
+    color: #00acee;
+    border-color: #00acee;
+}
+
+.footer .icon-btn.IGIcon:hover {
+    color: #e4405f;
+    border-color: #e4405f;
+}
+
+.footer .icon-btn.YTIcon:hover {
+    color: #FF0000;
+    border-color: #FF0000;
+}
+
+.footer .text-center {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+}

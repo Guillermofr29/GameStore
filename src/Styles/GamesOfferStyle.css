@@ -1,0 +1,29 @@
+.price>.original-price{
+  color: rgba(52, 183, 35, 0.687) !important;
+  text-decoration: line-through;
+  margin-right: 5px;
+}
+
+.price>.offer-price{
+  color: red !important;
+}
+
+.GamesOffer-Container {
+  width: 100%;
+  background: linear-gradient(-45deg, #200024, #5a0b4d, #1e0043, #020017);
+  background-size: 400% 400%;
+  animation: gradient 7s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+

@@ -1,9 +1,13 @@
-import { NavBar } from "./components/NavBar";
+import { NavBar } from "./components/layout/NavBar";
 import {Banner} from "./components/Banner";
 import {Categories} from "./components/Categories";
 import {NewGames} from "./components/NewGames";
-import './App.css'
+import {PopularGames} from "./components/PopularGames";
+import {GamesOffer} from "./components/GamesOffer";
+import { Footer } from "./components/layout/Footer";
+import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 const App = () => {
 
@@ -13,6 +17,9 @@ const App = () => {
       <Banner />
       <Categories />
       <NewGames />
+      <PopularGames />
+      <GamesOffer />
+      <Footer />
     </div>
   );
 }

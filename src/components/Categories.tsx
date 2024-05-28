@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Grid, Typography } from '@mui/material';
 import { categoriesItems } from '../Data/CategoriesData';
+import {Platforms} from "../components/Platforms";
 import '../Styles/CatStyles.css';
 
 interface CardProps {
@@ -32,6 +33,7 @@ export const Categories = () => {
             </Grid>
           ))}
         </Grid>
+        <Platforms/>
       </Container>
     </div>
   );

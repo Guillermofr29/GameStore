@@ -1,51 +1,68 @@
-// cardsData.ts
-export const cardsData = [
-    {
-      id: 1,
-      title: 'Card er 1',
-      text: 'Some quick example text to build on the card title and make up the bulk of the card\'s content.',
-      imgSrc: 'https://www.winp.es/wp-content/uploads/2023/01/Videojuegos-de-deporte-mas-populares.png',
-    },
-    {
-      id: 2,
-      title: 'Card Title 2',
-      text: 'Some quick example text to build on the card title and make up the bulk of the card\'s content.',
-      imgSrc: 'https://www.winp.es/wp-content/uploads/2023/01/Videojuegos-de-deporte-mas-populares.png',
-    },
-    {
-      id: 3,
-      title: 'Card Title 3',
-      text: 'Some quick example text to build on the card title and make up the bulk of the card\'s content.',
-      imgSrc: 'https://www.winp.es/wp-content/uploads/2023/01/Videojuegos-de-deporte-mas-populares.png',
-    },
-    {
-      id: 4,
-      title: 'Card Title 4',
-      text: 'Some quick example text to build on the card title and make up the bulk of the card\'s content.',
-      imgSrc: 'https://www.winp.es/wp-content/uploads/2023/01/Videojuegos-de-deporte-mas-populares.png',
-    },    {
-        id: 1,
-        title: 'Card er 1',
-        text: 'Some quick example text to build on the card title and make up the bulk of the card\'s content.',
-        imgSrc: 'https://www.winp.es/wp-content/uploads/2023/01/Videojuegos-de-deporte-mas-populares.png',
-      },
-      {
-        id: 2,
-        title: 'Card Title 2',
-        text: 'Some quick example text to build on the card title and make up the bulk of the card\'s content.',
-        imgSrc: 'https://www.winp.es/wp-content/uploads/2023/01/Videojuegos-de-deporte-mas-populares.png',
-      },
-      {
-        id: 3,
-        title: 'Card Title 3',
-        text: 'Some quick example text to build on the card title and make up the bulk of the card\'s content.',
-        imgSrc: 'https://www.winp.es/wp-content/uploads/2023/01/Videojuegos-de-deporte-mas-populares.png',
-      },
-      {
-        id: 4,
-        title: 'Card Title 4',
-        text: 'Some quick example text to build on the card title and make up the bulk of the card\'s content.',
-        imgSrc: 'https://www.winp.es/wp-content/uploads/2023/01/Videojuegos-de-deporte-mas-populares.png',
-      },
-  ];
-  
+import { GamesI } from '../interfaces/GamesI';
+
+export const newGames: GamesI[] = [
+  {
+    id: 1,
+    title: "Hellblade II",
+    developer: 'Ninja Theory',
+    imgSrc: 'https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2024/05/senuas-saga-hellblade-ii-3344139.jpg?tf=3840x',
+    rating: 4.5,
+    price: '1,199.00',
+  },
+  {
+    id: 2,
+    title: 'The Lost Crown',
+    developer: 'Ubisoft',
+    imgSrc: 'https://media.revistagq.com/photos/649003f247440fcd9be41f99/16:9/w_2560%2Cc_limit/Prince_of_persia_the_lost_crown.jpg',
+    rating: 4,
+    price: '123.99',
+  },
+  {
+    id: 3,
+    title: 'Tekken 8',
+    developer: 'Bandai Namco Studios',
+    imgSrc: 'https://static.bandainamcoent.eu/high/tekken/tekken-8/00-page-setup/TEKKEN8_Header_mobile_2.jpg',
+    rating: 3.5,
+    price: '959.00',
+  },
+  {
+    id: 4,
+    title: 'Ghost of Tsushima',
+    developer: 'Sucker Punch Productions',
+    imgSrc: 'https://somoskudasai.com/wp-content/uploads/2020/04/Ghost-of-Tsushima.jpg',
+    rating: 4.1,
+    price: '999.00',
+  },
+  {
+      id: 5,
+      title: 'Star Wars: Outlaws',
+      developer: 'Massive Entertainment',
+      imgSrc: 'https://cdn.mos.cms.futurecdn.net/uP6qvCGPm87Vk8Nw56QEVM-1200-80.jpeg',
+      rating: 5,
+      price: '1,599.00',
+  },
+  {
+      id: 6,
+      title: 'Hades II',
+      developer: 'Supergiant Games',
+      imgSrc: 'https://assetsio.gnwcdn.com/hades-2-key-art-melinoe.jpg?width=1200&height=1200&fit=bounds&quality=70&format=jpg&auto=webp',
+      rating: 4.7,
+      price: '334.99',
+  },
+  {
+      id: 7,
+      title: 'Dragons Dogma 2',
+      developer: 'Capcom',
+      imgSrc: 'https://store-images.s-microsoft.com/image/apps.396.14277259033847105.7852260c-8a58-4e28-9e97-dd6d1a7f62f9.a4c88625-0802-48a6-86d8-f41f098ab7e0?q=90&w=480&h=270',
+      rating: 4.2,
+      price: '1,350.00',
+  },
+  {
+      id: 8,
+      title: 'Black Myth: Wukong',
+      developer: 'Game Science',
+      imgSrc: 'https://assetsio.gnwcdn.com/Sun-Wukong.jpg?width=1200&height=1200&fit=bounds&quality=70&format=jpg&auto=webp',
+      rating: 3,
+      price: '570.00',
+  },
+];

@@ -25,3 +25,14 @@ h5{
 p{
     font-family: 'Fine', sans-serif !important;
 }
+
+.Details{
+	color: white !important;
+	background: none !important;
+	border: 1px solid white !important;
+}
+
+.Details:hover{
+	color: #ff0aa1 !important;
+	background: white !important;
+}

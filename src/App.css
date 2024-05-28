@@ -1,4 +1,3 @@
-/************ Custom Font ************/
 @font-face {
 	font-family: Bolds;
 	src: url('./assets/font/DePixelHalbfett.ttf');
@@ -15,7 +14,6 @@
 	font-weight: 400;
 }
 
-/************ Default Css ************/
 * {
   margin: 0;
   padding: 0;
@@ -59,6 +57,10 @@ img {
   height: auto;
 }
 
+img.logo{
+  width: 10px !important;
+}
+
 button {
   border: 0;
   background-color: transparent;
@@ -81,4 +83,159 @@ p.success {
 
 p.danger {
 	color: red;
+}
+
+.star-rating>.gold-star{
+  color: gold !important;
+  font-size: 0.8rem !important;
+}
+
+.description{
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.card-item{
+  background: none !important;
+  border: solid 2px white;
+}
+
+.card-item:hover{
+  box-shadow: 0 14px 28px rgb(135, 0, 97), 0 10px 10px;
+}
+
+.star-rating {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px 0;
+}
+
+.title, .subtitle{
+  color: #ffffff;
+  text-align: center;
+  text-shadow: 
+    0 0 5px #ff0aa1,
+    0 0 10px #ff0aa1,
+    0 0 20px #ff0aa1,
+    0 0 30px #ff0aa1,
+    0 0 40px #ff0aa1,
+    0 0 50px #ff0aa1,
+    0 0 60px #ff0aa1,
+    0 0 70px #ff0aa1;
+}
+
+.subtitle{
+  font-size: 1.5rem !important;
+}
+
+.platforms-container {
+  text-align: center;
+  /* margin: 20px 0; */
+}
+
+.platforms-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.platform-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.platform-icon img {
+  width: 50px;
+  height: 50px;
+}
+
+.platform-icon span {
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+
+.text{
+  font-family: 'Normals', sans-serif !important;
+  color: white !important;
+  font-size: 0.7rem !important;
+}
+
+.slider-card {
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.name{
+  font-family: 'Bolds', sans-serif !important;
+  color: white !important;
+  font-size: 0.9rem !important;
+}
+
+.Btn {
+  margin: 10px auto 0;
+  border: 1px solid white !important;
+  color: white !important;
+  background: none !important;
+  font-size: 0.7rem !important;
+  text-transform: none !important;
+  width: fit-content;
+}
+
+.Btn:hover{
+  background: white !important;
+  color: #5a0b4d !important;
+}
+
+.price {
+  font-family: 'Normals', sans-serif !important;
+  color: rgb(52, 183, 35) !important;
+  font-size: 0.7rem !important;
+  margin: 10px 0;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.GamesOffer-Container {
+  width: 100%;
+  background: linear-gradient(-45deg, #200024, #5a0b4d, #1e0043, #020017);
+  background-size: 400% 400%;
+  animation: gradient 7s ease infinite;
+}
+
+.price>.original-price{
+  color: rgba(52, 183, 35, 0.687) !important;
+  text-decoration: line-through;
+  margin-right: 5px;
+}
+
+.price>.offer-price{
+  color: red !important;
+}
+
+@media (max-width: 576px) {
+  .slider-card .name {
+    font-size: 0.7rem !important;
+  }
+  .slider-card .text {
+    font-size: 0.6rem !important;
+  }
+  .slider-card .price {
+    font-size: 0.6rem !important;
+  }
+  .slider-card .Btn {
+    font-size: 0.6rem !important;
+  }
+
+  .footer .txt{
+    font-size: 0.7rem !important;
+  }
 }

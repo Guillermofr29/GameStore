@@ -13,7 +13,7 @@ export const carouselItems = [
         image: imgSprMn2,
         text: "Spider Man 2",
         captionTitle: "Insomniac Games",
-        captionText: "Es un videojuego de acción y aventura de mundo abierto, basado en el personaje de Marvel Comics, Spider Man.",
+        captionText: "Juego de acción y aventura de mundo abierto, basado en el personaje de Marvel Comics, Spider Man.",
     },
     {
         image: imgDrgnDgm2,
